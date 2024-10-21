@@ -1,21 +1,21 @@
-# EX4 - Vigenere Cipher
-## AIM:
-To develop a simple C program to implement Vigenere Cipher.
+# EX4 - VIGENERE CIPHER
+## AIM :
+To implement a program to encrypt a plain text and decrypt a cipher text using Vigenere Cipher substitution technique.
 
-## DESIGN STEPS:
-### Step 1:
+## DESIGN STEPS :
+### STEP 1 :
 Design of Vigenere Cipher algorithnm
 
-### Step 2:
+### STEP 2 :
 Implementation using C or pyhton code
 
-### Step 3:
+### STEP 3 :
 Testing algorithm with different key values.
 
-## ALGORITHM DESCRIPTION: 
+## ALGORITHM DESCRIPTION : 
 The Vigenere cipher is a method of encrypting alphabetic text by using a series of different Caesar ciphers based on the letters of a keyword. It is a simple form of polyalphabetic substitution.To encrypt, a table of alphabets can be used, termed a Vigenere square, or Vigenere table. It consists of the alphabet written out 26 times in different rows, each alphabet shifted cyclically to the left compared to the previous alphabet, corresponding to the 26 possible Caesar ciphers. At different points in the encryption process, the cipher uses a different alphabet from one of the rows used. The alphabet at each point depends on a repeating keyword.
 
-## PROGRAM:
+## PROGRAM :
 ```
 #include <stdio.h>
 #include <stdlib.h>  
@@ -90,7 +90,7 @@ void decipher()
 }
 ```
 
-## OUTPUT:
+## OUTPUT :
 
 ![image](https://github.com/user-attachments/assets/6937de7e-e313-4464-ba9b-fb3079acae81)
 
@@ -100,5 +100,5 @@ void decipher()
 
 
 
-## RESULT:
-The program is executed successfully.
+## RESULT :
+The program to encrypt a plain text and decrypt a cipher text using Vigenere Cipher substitution technique is executed successfully.

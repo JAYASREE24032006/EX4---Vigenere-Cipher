@@ -1,8 +1,9 @@
 # EX4 - VIGENERE CIPHER
 ## AIM :
 To implement a program to encrypt a plain text and decrypt a cipher text using Vigenere Cipher substitution technique.
-
-## DESIGN STEPS :
+## THEORM :
+The Vigenère cipher is a method of encrypting alphabetic text using a simple form of polyalphabetic substitution. It applies a repeating key to shift each letter of the plaintext by a different amount, based on the corresponding letter in the key. This method increases encryption security compared to simple Caesar ciphers.
+## ALGORITHM :
 ### STEP 1 :
 Design of Vigenere Cipher algorithnm
 
